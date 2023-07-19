@@ -6,6 +6,7 @@ header {
      background: #FFF;
      box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 
+
 }
 
 nav {
@@ -38,6 +39,19 @@ nav li a {
 
 }
 
+.nav-you {
+     width: 33.916px;
+     height: 24px;
+     flex-shrink: 0;
+     margin-right: 5px;
+     margin-left: 10px;
+
+}
+.fol{
+     padding-bottom: 50px;
+     position: relative;
+          color: rgb(130, 35, 219);
+}
 .nav-title {
      display: flex;
 }
@@ -63,6 +77,17 @@ nav span {
      background-clip: text;
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
+}
+
+.frame {
+     width: 86.041px;
+     height: 40px;
+     flex-shrink: 0;
+}
+
+.ga {
+     position: relative;
+     margin-top: -8px;
 }
 
 
@@ -144,6 +169,42 @@ nav span {
 }
 
 /* main section start here */
+/* we are gamer */
+.we-are-gamer-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.we-are-context {
+     text-align: right;
+
+}
+
+.we-are-context h1 {
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     text-align: right;
+     font-family: Work Sans;
+     font-size: 48px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+}
+
+.we-are-context p {
+     width: 520px;
+     color: #534C64;
+     text-align: right;
+     font-family: Work Sans;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 30px;
+
+}
 
 /* online game section */
 
@@ -157,10 +218,11 @@ nav span {
      justify-content: center;
      gap: 10px;
 }
-.online-cards p{
+
+.online-cards p {
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
- 
+
 
 .online-context {
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -241,7 +303,12 @@ nav span {
 .icon-container {
      display: grid;
      grid-template-columns: repeat(5, 5fr);
-     padding-left: 250px;
+     padding-left: 180px;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+     height: auto;
+     width: auto;
 }
 
 .icon {
@@ -254,7 +321,7 @@ nav span {
 }
 
 .icon:hover {
-     border: 2px solid black;
+     border: 3px solid rgb(227, 11, 227);
      border-radius: 50px;
 }
 
@@ -283,11 +350,12 @@ nav span {
      margin-left: 800px;
      font-size: 25px;
 }
-.g{
+
+.g {
      background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
 }
 
 .footer-container .foot-context {
@@ -304,13 +372,13 @@ background-clip: text;
 }
 
 .footer-container .foot-context p {
-     margin-left: 20px;
+     margin-left: 40px;
      text-align: center;
      justify-content: space-between;
      color: #FFF;
      text-align: center;
      font-family: gabriola;
-     font-size: 18px;
+     font-size: 20px;
      font-style: normal;
      font-weight: 600;
      line-height: normal;
@@ -320,7 +388,7 @@ background-clip: text;
      display: flex;
      width: 60px;
      height: 50px;
-     padding-left: 700px;
+     padding-left: 750px;
 }
 
 .foot-icons img {
@@ -329,11 +397,11 @@ background-clip: text;
 
 .foot-copi {
      display: flex;
-     padding-left: 600px;
+     padding-left: 700px;
      color: #FFF;
      text-align: center;
-     font-family: Work Sans;
-     font-size: 18px;
+     font-family: gabriola;
+     font-size: 20px;
      font-style: normal;
      font-weight: 600;
      line-height: normal;
@@ -343,11 +411,57 @@ background-clip: text;
 
 
      color: #FFF;
-     padding-left: 650px;
-     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     font-size: 18px;
+     padding-left: 730px;
+     font-family: gabriola;
+     font-size: 20px;
      font-style: normal;
      font-weight: 600;
      line-height: normal;
 }
 
+.game-icons img {
+     width: 86.041px;
+     height: 40px;
+     flex-shrink: 0;
+}
+
+.game-icons h3 {
+     margin-top: 0px;
+     margin-left: 10px;
+}
+
+/* responsive center related css start here */
+
+@media screen and (max-width:425px) {
+     header{
+          flex-direction: column;
+     }
+     nav{
+          flex-direction: column;
+     }
+     nav>ul {
+          flex-direction: column;
+     }
+     nav li{
+          flex-direction: column;
+     }
+     nav li a {
+          flex-direction: column;
+     }
+     .bannar-container{
+          flex-direction: column;
+     }
+     .banner-img{
+          flex-direction: column;
+     }
+     .banner-title{
+          flex-direction: column;
+     }
+     .we-are-gamer-container{
+          flex-direction: column;
+     }
+     .footer-container{
+          flex-direction: column;
+     }
+
+}
