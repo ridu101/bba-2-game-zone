@@ -34,7 +34,7 @@ nav li a {
      font-style: normal;
      font-weight: 500;
      line-height: 26px;
-     
+
 
 }
 
@@ -50,7 +50,7 @@ nav li a {
 nav h1 {
 
      color: #0B0223;
-     font-family: Work Sans;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
      font-size: 45px;
      font-style: normal;
      font-weight: 700;
@@ -65,22 +65,7 @@ nav span {
      -webkit-text-fill-color: transparent;
 }
 
-.follow {
-     width: 282px;
-     height: 46px;
-     flex-shrink: 0;
-     border-radius: 8px;
-     background: rgba(11, 2, 35, 0.10);
-     justify-content: center;
-     text-align: center;
-     padding-top: 10px;
-     color: rgb(130, 35, 219);
-     padding-bottom: 10px;
-     gap: 10px;
-     border-radius: 20px;
-     background: #e2e6e9;
 
-}
 
 /* banner related css */
 
@@ -88,7 +73,8 @@ nav span {
      display: flex;
      justify-content: center;
      align-items: center;
-     
+
+
 }
 
 .bannar-container img {
@@ -104,29 +90,31 @@ nav span {
      height: 400px;
      flex-shrink: 0;
      fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
-    
-    
-     
+
+
+
 
 }
 
-.banner-title h1 {
+.banner-title .goat {
      background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
      background-clip: text;
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
      font-size: 70PX;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     margin-top: 0;
 }
 
 .banner-title h3 {
      color: #0B0223;
-
-     font-family: Work Sans;
-     font-size: 48px;
+     font-size: 58px;
      font-style: normal;
      font-weight: 600;
      line-height: normal;
      text-transform: uppercase;
+     font-family: gabriola;
+
 }
 
 
@@ -141,6 +129,7 @@ nav span {
      gap: 10px;
      border-radius: 48px;
      background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+
 }
 
 .got {
@@ -151,4 +140,214 @@ nav span {
      gap: 10px;
      border-radius: 48px;
      background: #4EC5F7;
+
 }
+
+/* main section start here */
+
+/* online game section */
+
+.online-container {
+     display: block;
+     text-align: center;
+}
+
+.online-cards {
+     display: flex;
+     justify-content: center;
+     gap: 10px;
+}
+.online-cards p{
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ 
+
+.online-context {
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 30px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+
+}
+
+.online-context span {
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 48px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+}
+
+.online-context p {
+     color: #534C64;
+     text-align: center;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 30px;
+
+}
+
+
+
+/* play-online section */
+.play-container {
+
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     text-align: right;
+
+
+}
+
+.play-container span {
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     color: #0B0223;
+     font-family: Work Sans;
+     font-size: 48px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 60px;
+}
+
+.play-context {
+     align-items: center;
+     text-align: center;
+}
+
+.play-container img {
+     display: block;
+}
+
+.cat {
+     position: relative;
+     margin-top: -250px;
+     margin-left: -150px;
+
+}
+
+/* icon content related css */
+
+.icon-container {
+     display: grid;
+     grid-template-columns: repeat(5, 5fr);
+     padding-left: 250px;
+}
+
+.icon {
+     display: flex;
+     margin-top: 40px;
+}
+
+.pad-icon {
+     margin-left: 110px;
+}
+
+.icon:hover {
+     border: 2px solid black;
+     border-radius: 50px;
+}
+
+.up-icon {
+     margin-left: 80px;
+}
+
+
+/* footer section css start from here */
+
+.footer-container {
+
+     background: #0B0223;
+     width: 1920px;
+     height: 400px;
+     flex-shrink: 0;
+     flex-shrink: 0;
+     display: block;
+     margin-top: 50px;
+}
+
+.footer-container .game-icons {
+     color: #FFF;
+     padding-top: 50px;
+     display: flex;
+     margin-left: 800px;
+     font-size: 25px;
+}
+.g{
+     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.footer-container .foot-context {
+     display: flex;
+     margin-left: 580px;
+     color: #FFF;
+     text-align: center;
+     font-family: gabriola;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+
+}
+
+.footer-container .foot-context p {
+     margin-left: 20px;
+     text-align: center;
+     justify-content: space-between;
+     color: #FFF;
+     text-align: center;
+     font-family: gabriola;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+}
+
+.foot-icons {
+     display: flex;
+     width: 60px;
+     height: 50px;
+     padding-left: 700px;
+}
+
+.foot-icons img {
+     padding: 10px;
+}
+
+.foot-copi {
+     display: flex;
+     padding-left: 600px;
+     color: #FFF;
+     text-align: center;
+     font-family: Work Sans;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+}
+
+.copy p {
+
+
+     color: #FFF;
+     padding-left: 650px;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+}
+
